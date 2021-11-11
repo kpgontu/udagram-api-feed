@@ -20,5 +20,5 @@ script:
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push kgontu12345/udagram-udagram-api-feed:v1
+  - docker push kgontu12345/udagram-api-feed:v1
 
